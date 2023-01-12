@@ -9,6 +9,7 @@ function App() {
 
   return (
     <div className="App">
+      {/* //posterSrc={posterURL} removed because we have a default value in the child component*/}
       <MovieCard title={title} genres={genresArr} />
     </div>
   );
